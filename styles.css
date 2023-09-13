@@ -30,7 +30,11 @@ footer{
 }
 
 /*Forms*/
-.signup-form, .signin-form{
+.signup-form{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.signin-form{
     max-width: 300px;
     margin: 0 auto;
 }
@@ -71,6 +75,8 @@ img{
     margin-right:300px;
     margin-top:200px;
     margin-bottom:200px;
+    border-radius: 0%;
+    border-color: solid black;
 }
 .button1{
     background-color: #F4D03F;
@@ -88,7 +94,8 @@ img{
     background-color: #B9770E ;
 }
 .bgimage{
-    background-image: url(ecommerce.jpg);
+    background-image: url(signupsingin.jpeg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
+
